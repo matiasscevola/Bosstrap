@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+    background-image: url(../img/bateria.jpg);
+    background-size:100%;
+	height: auto;
+	width: auto;
+	background-color: black;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+    align-items: stretch;
+    justify-content:space-between;
+}
+
+.flex-container{
+
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.logo{
+	padding-left: 25%;
+    width: 70%;
+	
+    
+	
+}
+
+ .boton{
+    display: flex;
+    align-items: center;
+	justify-content: center;
+   
+ }
+ 
+ ul li a{
+	font-size: 1.3em;
+	color: white;
+	
+ }
+
+ .asideNos { 
+
+	display: flex;
+	font-size: 1em;
+	color: white;	
+	justify-content: flex-end;
+	align-items: baseline;
+
+}
+
+/*------------------contacto----------------*/
+
+.container{
+		display: flex;
+		height:1em ;
+		align-items: center;
+		margin-top: 0%;
+		margin-left: 15%;
+} 
+
+.form{
+	display: flex;
+	flex-flow: column;
+	background-color: #040000;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.8);
+	border-radius: 0.625em;
+	margin-top: auto;
+}
+.textArea{
+	padding: 1.875em;
+	height: 1.875em;
+}
+.mainNos {
+	
+	color: white;
+	margin-left: 10%;
+
+ }
+
+ .maps{
+
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 25%;
+}
+
+
+ /*---------------------------footer---------------------*/
+
+ .f{
+	 color: white;
+	font-size: 3em;
+
+ }
+ .f:hover{
+	 color: blue;
+ }
+.i{
+	color: white;
+	font-size: 3em;
+}
+.i:hover{
+
+
+	color: #8a3ab9;
+}
+
+.gM{
+	color: white;
+	font-size: 3em;
+}
+
+.gM:hover{
+
+	color: red;
+}
+
+.row {
+    display:flex;
+    
+   
+   
+}
+
+
+/*----------------------ofertas---------------*/
+
+.tarjetas {
+	font-family: sans-serif;
+	font-size: 1.25em;
+	color: #FFFFFF;
+	margin-left:0.7em ;
+}
+h2 {
+	font-size: 1.87em;
+	color: #EEB6B6;
+	margin-right: 0.93em;
+	
+}
+
+
+h3 {
+	font-size: 1.25em;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+.mainOf article p{
+	font-size: 1.5em;
+	background-color: transparent;
+}	
+	
+
+}
+tr th{
+	font-size: 2em;
+	color: white;
+}
+table {
+	border: 1px solid #FFFFFF;
+	border-collapse: collapse #FFFFFF;
+	font-size: 1em;
+	color: white;
+	background-color: black;
+	background: linear-gradient(70deg, black, white);
+
+}
+
+table td{
+	font-size: 2em;
+	color: white;
+	border: 1px solid #FFFFFF;
+	padding: 3.125em;
+	background: linear-gradient(70deg, black, white);
+}
+
+h1{
+	color:cornsilk ;
+
+}
+
+.pO{
+	color: azure;
+	background: linear-gradient(70deg, black, rgb(85, 25, 25));
+}
+.asideOf{ 
+	
+	text-align: center;
+}
+
+/*------------productos----------------*/
+
+.mainProd {
+  	
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.ejemplo{
+	color: red;
+}
+
+.slide{
+	margin-top: 10px;
+
+}
+.slide img{
+	height: 90%;
+}
+div h1{
+	font-size: 2em;
+	background: linear-gradient(70deg, black, rgb(85, 25, 25));
+	display: flex;
+	justify-content: center;
+}
+/*-------------------contacto----------------------*/
+
+.row1{
+
+	margin-top: 5%;
+}
