@@ -18,7 +18,10 @@ body{
     align-items: stretch;
     justify-content:space-between;
 }
-
+.nav-link: hover{
+	color: #8a3ab9;
+	
+}
 .flex-container{
 
 	display: flex;
@@ -48,7 +51,7 @@ body{
 	
  }
 
- .asideNos { 
+.asideNos { 
 
 	display: flex;
 	font-size: 1em;
@@ -58,15 +61,23 @@ body{
 
 }
 
+
+/*-------------nav-----------------*/
+#botonera{
+	background-color: rgba(41, 9, 9, 0.637);
+
+}
+
+
 /*------------------contacto----------------*/
 
 .container{
-		display: flex;
-		height:1em ;
-		align-items: center;
-		margin-top: 0%;
-		margin-left: 15%;
-} 
+	display: flex;
+	height:1em ;
+	align-items: center;
+	margin-top: 0%;
+	margin-left: 15%;
+ } 
 
 .form{
 	display: flex;
@@ -101,40 +112,39 @@ body{
  /*---------------------------footer---------------------*/
 
  .f{
-	 color: white;
+	 color: blue;
 	font-size: 3em;
 
  }
  .f:hover{
-	 color: blue;
+	 color:white;
  }
 .i{
-	color: white;
+	color:#8a3ab9;
 	font-size: 3em;
 }
 .i:hover{
-
-
-	color: #8a3ab9;
+	color:white ;
 }
 
 .gM{
-	color: white;
+	color:red;
 	font-size: 3em;
 }
 
 .gM:hover{
 
-	color: red;
+	color: white;
 }
 
 .row {
-    display:flex;
-    
-   
-   
+    display:flex;   
 }
 
+#footerBg{
+	
+	background-color: #040000;
+}
 
 /*----------------------ofertas---------------*/
 
@@ -166,8 +176,6 @@ h3 {
 	background-color: transparent;
 }	
 	
-
-}
 tr th{
 	font-size: 2em;
 	color: white;
@@ -196,22 +204,30 @@ h1{
 }
 
 .pO{
+
 	color: azure;
 	background: linear-gradient(70deg, black, rgb(85, 25, 25));
 }
 .asideOf{ 
 	
 	text-align: center;
+	animation-duration: 2s;
+	
+}
+
+#tableOfertas{
+	width: 50%;
+}
+
+.pCenter{
+	text-align: center;
 }
 
 /*------------productos----------------*/
 
 .mainProd {
-  	
-    
-    display: flex;
+  	display: flex;
     align-items: center;
-
 }
 
 .ejemplo{
@@ -236,4 +252,32 @@ div h1{
 .row1{
 
 	margin-top: 5%;
+}
+
+
+
+.nav-item a:hover{
+
+	color: #8a3ab9;
+	font-weight: 700;
+}
+/*----------------medias querys--------------*/
+@media only screen and (max-width: 577px ) and (min-width: 50px)
+{
+	.maps{
+		display: none;
+	}
+
+	#formNone{
+		display: none;
+	}
+	#tableOfertas{
+		display: none;
+	}
+	#asideOfertas{
+		display: none;
+	}
+	.pCenter p{
+		font-size: 0.5em;
+	}
 }
